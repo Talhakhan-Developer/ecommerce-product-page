@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# E-commerce Product Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project, **E-commerce Product Page**, is a solution to a challenge from the [Frontend Mentor](https://www.frontendmentor.io/) website. The objective was to create a responsive product page for an e-commerce site using React.js and Tailwind CSS.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributions](#contributing)
+- [License](#license)
+- [Socials](#Author)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Responsive design
+- Custom image slider with automatic scrolling and manual controls
+- Use of `useState` and `useContext` for state management
+- Add to cart functionality
+- Dynamic image change based on selected thumbnail
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React.js**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **React Context API**: For managing global state.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Getting Started
 
-### `npm run build`
+To get a local copy up and running, follow these simple steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js and npm installed on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/yourusername/ecommerce-product-page.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### 02 Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+cd ecommerce-product-page
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### 03. Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```npm
+npm install
+```
 
-## Learn More
+#### 04. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```npm
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 05. Open your web browser and navigate to:
 
-### Code Splitting
+```
+http://localhost:5173
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage:
 
-### Analyzing the Bundle Size
+- The product images will scroll automatically.
+- You can also manually navigate through the product images using the provided buttons.
+- Add items to your cart and view the selected items.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! Feel free to open issues or submit pull requests to contribute to the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Author
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Facebook-[Talha khan](https://www.facebook.com/iamTalhaKhn/)
+- Instagram-[Talha khan](https://www.instagram.com/i_am_talhakhan/)
+- Linkedin-[Talha khan](https://linkedin.com/in/imtalhakhan)
+- Github - [Talha Khan](https://github.com/Talhakhan-Developer)
+- Frontend Mentor - [@Talhakhan-Developer](https://www.frontendmentor.io/profile/Talhakhan-Developer)
+- Twitter - [@i_am_Talhakhan](https://twitter.com/i_am_Talhakhan)

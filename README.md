@@ -36,10 +36,10 @@ To get a local copy up and running, follow these simple steps.
 
 ### Installation
 
-1. Clone the repo:
-   ```sh
-   git clone https://github.com/yourusername/ecommerce-product-page.git
-   ```
+#### 01. Clone the repo:
+```sh
+git clone https://github.com/yourusername/ecommerce-product-page.git
+```
 
 #### 02 Navigate to the project directory:
 

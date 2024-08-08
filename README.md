@@ -38,7 +38,7 @@ To get a local copy up and running, follow these simple steps.
 
 #### 01. Clone the repo:
 ```sh
-git clone https://github.com/yourusername/ecommerce-product-page.git
+git clone https://github.com/Talhakhan-Developer/ecommerce-product-page.git
 ```
 
 #### 02 Navigate to the project directory:

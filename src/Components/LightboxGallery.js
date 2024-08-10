@@ -97,17 +97,21 @@ function LightboxGallery() {
               >
                 <img
                   src={thumbnail1}
-                  className="h-full w-full rounded-xl hover:bg-white hover:opacity-50 "
+                  className={`h-full w-full md:rounded-xl ${
+                    activeSlide === 0 ? "bg-white opacity-50" : ""
+                  } hover:bg-white hover:opacity-50`}
                   alt="Thumbnail-pic"
                 />
               </div>
               <div
-                className="slide-pic w-24 h-24 hover:cursor-pointer rounded-xl bg-neutral-White hover:border-primary-Orange hover:border-2"
+                className="slide-pic w-24 h-24  hover:cursor-pointer rounded-xl bg-neutral-White hover:border-primary-Orange hover:border-2"
                 onClick={() => setActiveSlide(1)}
               >
                 <img
                   src={thumbnail2}
-                  className="h-full w-full md:rounded-xl hover:bg-white hover:opacity-50"
+                  className={`h-full w-full md:rounded-xl ${
+                    activeSlide === 1 ? "bg-white opacity-50" : ""
+                  } hover:bg-white hover:opacity-50`}
                   alt="Thumbnail-pic"
                 />
               </div>
@@ -117,7 +121,9 @@ function LightboxGallery() {
               >
                 <img
                   src={thumbnail3}
-                  className="h-full w-full md:rounded-xl hover:bg-white hover:opacity-50"
+                  className={`h-full w-full md:rounded-xl ${
+                    activeSlide === 2 ? "bg-white opacity-50" : ""
+                  } hover:bg-white hover:opacity-50`}
                   alt="Thumbnail-pic"
                 />
               </div>
@@ -127,7 +133,9 @@ function LightboxGallery() {
               >
                 <img
                   src={thumbnail4}
-                  className="h-full w-full md:rounded-xl hover:bg-white hover:opacity-50"
+                  className={`h-full w-full md:rounded-xl ${
+                    activeSlide === 3 ? "bg-white opacity-50" : ""
+                  } hover:bg-white hover:opacity-50`}
                   alt="Thumbnail-pic"
                 />
               </div>
